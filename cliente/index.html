@@ -3,10 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recupracion JS</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Juego de adivinar</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <h1 id="estado"></h1>
+    <h1 id="lista"></h1>
+    <button id="botonEmpezar">Empezar</button>
+    <div id="juego">
+        <div>
+            <input id="numero" type="text">
+            <button id="enviar">Enviar</button>
+        </div>
+        <div class="jugadas"></div>
+    </div>
+    <script type="module" src="index.js"></script>
 </body>
 </html>
